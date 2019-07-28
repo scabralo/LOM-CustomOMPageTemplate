@@ -17,7 +17,11 @@ get_header();
 
 		<!-- .sections_group -->
 		<div class="sections_group">
-			
+      <div class="section">
+        <div class="section_wrapper clearfix">
+          <h1>Custom OM Builder</h1>
+        </div>
+      </div>	
 		</div>
 			
 	</div>
