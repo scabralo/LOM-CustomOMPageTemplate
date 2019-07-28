@@ -1,0 +1,9 @@
+.page-template-custom-om-template #Context {
+  background: white;
+}
+.custom-om-template h1,
+.custom-om-template h2,
+.custom-om-template h3,
+.custom-om-template h4 {
+  color: #292929;
+}
