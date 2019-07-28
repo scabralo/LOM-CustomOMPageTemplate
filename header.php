@@ -42,6 +42,7 @@
 <?php wp_head(); ?>
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/813acdcff9b6fd36cdbafa8bd/0d38ca958fffeca80c2fb7f2c.js");</script>
+<link rel="stylesheet" href="//legendsofom.com/wp-content/themes/betheme-child/css/custom-om-template.css" type="text/css" media="all" />
 </head>
 
 <!-- body -->
