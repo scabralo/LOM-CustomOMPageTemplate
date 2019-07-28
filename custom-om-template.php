@@ -12,7 +12,7 @@ get_header();
 
 <!-- #Content -->
 <div id="Content">
-	<div class="content_wrapper clearfix">
+	<div class="content_wrapper clearfix custom-om-template">
 
 		<!-- .sections_group -->
 		<div class="sections_group">
