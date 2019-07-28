@@ -9,6 +9,7 @@
  */
 
 get_header();
+<link rel="stylesheet" id="mfn-woo-css" href="/wp-content/themes/betheme-child/css/custom-om-template.css?ver=1.0.0" type="text/css" media="all">
 ?>
 
 <!-- #Content -->
