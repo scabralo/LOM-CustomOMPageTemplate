@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Custom OM Builder
  * The Template for the Custom OM Builder page
  *
  * @package Betheme
