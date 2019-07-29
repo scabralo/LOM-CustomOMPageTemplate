@@ -1,5 +1,6 @@
-.page-template-custom-om-template #Context {
-  background: white;
+#Wrapper,
+#Content {
+  background-color: white !important;
 }
 .custom-om-template h1,
 .custom-om-template h2,
