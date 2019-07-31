@@ -8,3 +8,53 @@
 .custom-om-template h4 {
   color: #292929;
 }
+.custom-om__section-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.custom-om__left-column {
+  width: 75%;
+}
+.custom-om__right-column {
+  width: 25%;
+}
+.custom-om__section-wrapper > div {
+  padding: 1em;
+}
+.custom-om__right-column > div {
+  margin-bottom: 2em;
+}
+.custom-om__custom-category {
+  display: flex;
+  flex-wrap: wrap;
+}
+.custom-om__custom-category span {
+  width: 2em;
+  height: 2em;
+  display: block;
+  border-radius: .5em;
+  border: solid 1px #cecece;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-bottom: 0.25em;
+}
+.custom-om__om-type-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-om__om-type-item {
+  display: flex;
+  border: 1px solid black;
+  width: 8em;
+  height: 8em;
+  border-radius: 4em;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1em;
+  cursor: pointer;
+}
+span.custom-om__om-type-item h3 {
+  margin: 0;
+  font-size: large;
+}
