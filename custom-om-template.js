@@ -32,8 +32,19 @@
     },
   ]
 
+  /*
+   * This function will return the element used to showcase the colors available for customization
+   * @param color An object
+   * @return node In this case the node is a span element
+   */
   const colorItem = (color) => {
-    return `<span style="background-color: ${color.hexValue}"></span>`
+    const node = document.createElement('span')
+    const text = document.createTextNode('')
+
+    node.appendChild(text)
+    node.style.backgroundColor = color.hexValue
+    
+    return node
   }
 
   
