@@ -32,5 +32,9 @@
     },
   ]
 
+  const colorItem = (color) => {
+    return `<span style="background-color: ${color.hexValue}"></span>`
+  }
+
   
 })()
