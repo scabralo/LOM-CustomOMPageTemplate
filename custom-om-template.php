@@ -43,46 +43,21 @@ get_header();
               <div class="custom-om__hat-customizations">
                 <h3>Hat</h3>
                 <div class="custom-om__hat-wrapper custom-om__custom-category">
-                  <span class="custom-om__hat-item" style="background-color: #E9E3CB"></span>
-                  <span class="custom-om__hat-item" style="background-color: #000000"></span>
-                  <span class="custom-om__hat-item" style="background-color: #494949"></span>
-                  <span class="custom-om__hat-item" style="background-color: #AFAFAF"></span>
-                  <span class="custom-om__hat-item" style="background-color: #C9C9C9"></span>
-                  <span class="custom-om__hat-item" style="background-color: #FFFFFF"></span>
-                  <span class="custom-om__hat-item" style="background-color: #6587C7"></span>
-                  <span class="custom-om__hat-item" style="background-color: #91B0E6"></span>
-                  <span class="custom-om__hat-item" style="background-color: #1A203A"></span>
-                  <span class="custom-om__hat-item" style="background-color: #243560"></span>
                 </div>
               </div>
               <div class="custom-om__face-customizations">
                 <h3>Face</h3>
                 <div class="custom-om__face-wrapper custom-om__custom-category">
-                  <span class="custom-om__face-item" style="background-color: #E9E3CB"></span>
-                  <span class="custom-om__face-item" style="background-color: #000000"></span>
-                  <span class="custom-om__face-item" style="background-color: #494949"></span>
-                  <span class="custom-om__face-item" style="background-color: #AFAFAF"></span>
-                  <span class="custom-om__face-item" style="background-color: #C9C9C9"></span>
-                  <span class="custom-om__face-item" style="background-color: #FFFFFF"></span>
-                  <span class="custom-om__face-item" style="background-color: #6587C7"></span>
-                  <span class="custom-om__face-item" style="background-color: #91B0E6"></span>
-                  <span class="custom-om__face-item" style="background-color: #1A203A"></span>
-                  <span class="custom-om__face-item" style="background-color: #243560"></span>
                 </div>
               </div>
               <div class="custom-om__body-customizations">
                 <h3>Body</h3>
                 <div class="custom-om__body-wrapper custom-om__custom-category">
-                  <span class="custom-om__body-item" style="background-color: #E9E3CB"></span>
-                  <span class="custom-om__body-item" style="background-color: #000000"></span>
-                  <span class="custom-om__body-item" style="background-color: #494949"></span>
-                  <span class="custom-om__body-item" style="background-color: #AFAFAF"></span>
-                  <span class="custom-om__body-item" style="background-color: #C9C9C9"></span>
-                  <span class="custom-om__body-item" style="background-color: #FFFFFF"></span>
-                  <span class="custom-om__body-item" style="background-color: #6587C7"></span>
-                  <span class="custom-om__body-item" style="background-color: #91B0E6"></span>
-                  <span class="custom-om__body-item" style="background-color: #1A203A"></span>
-                  <span class="custom-om__body-item" style="background-color: #243560"></span>
+                </div>
+              </div>
+              <div class="custom-om__dots-customizations">
+                <h3>Dots</h3>
+                <div class="custom-om__dots-wrapper custom-om__custom-category">
                 </div>
               </div>
             </div>
