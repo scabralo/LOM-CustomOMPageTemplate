@@ -1,4 +1,4 @@
-;(function() {
+;jQuery(document).ready(function() {
   const sections = [
     {
       id: 'star',
