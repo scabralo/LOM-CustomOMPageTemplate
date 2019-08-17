@@ -1,4 +1,38 @@
 ;(function() {
+  const sections = [
+    {
+      sectionTitle: 'Star',
+      sectionSelector: '',
+      isVisible: true,
+      sectionClasses: []
+    },
+    {
+      sectionTitle: 'Hat',
+      sectionSelector: '',
+      isVisible: true,
+      sectionClasses: []
+    },
+    {
+      sectionTitle: 'Face',
+      sectionSelector: '',
+      isVisible: true,
+      sectionClasses: []
+    },
+    
+    {
+      sectionTitle: 'Body',
+      sectionSelector: '',
+      isVisible: true,
+      sectionClasses: []
+    },
+    
+    {
+      sectionTitle: 'Dot',
+      sectionSelector: '',
+      isVisible: true,
+      sectionClasses: []
+    },
+  ]
   const colors = [
     {
       hexValue: '#E9E3CB',
