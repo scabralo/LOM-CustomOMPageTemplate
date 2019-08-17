@@ -50,9 +50,11 @@
   const colorItem = (color) => {
     const node = document.createElement('span')
     const text = document.createTextNode('')
+    const colorValue = color.hexValue
 
     node.appendChild(text)
-    node.style.backgroundColor = color.hexValue
+    node.setAttribute('data-color-value', colorValue)
+    node.style.backgroundColor = colorValue
     
     return node
   }
