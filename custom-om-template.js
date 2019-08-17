@@ -1,32 +1,35 @@
 ;(function() {
   const sections = [
     {
+      id: 'star',
       sectionTitle: 'Star',
       sectionSelector: '',
       isVisible: true,
       sectionClasses: []
     },
     {
+      id: 'hat',
       sectionTitle: 'Hat',
       sectionSelector: '',
       isVisible: true,
       sectionClasses: []
     },
     {
+      id: 'face',
       sectionTitle: 'Face',
       sectionSelector: '',
       isVisible: true,
       sectionClasses: []
     },
-    
     {
+      id: 'body',
       sectionTitle: 'Body',
       sectionSelector: '',
       isVisible: true,
       sectionClasses: []
     },
-    
     {
+      id: 'dot',
       sectionTitle: 'Dot',
       sectionSelector: '',
       isVisible: true,
