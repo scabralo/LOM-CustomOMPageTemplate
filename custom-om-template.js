@@ -80,12 +80,13 @@
   ]
 
   /*
-   * This function will return the element used to showcase the colors available for customization
-   * @param color An object
+   * This function will return the color options for available for customization
+   * @param color An object containing all the properties for the color item we're creating
    * @param bodyPart It identifies to which body part this color could be applied to
    * @return node In this case the node is a span element
    */
   const colorItem = (color, bodyPart) => {
+    // console.log('Color: ', color)
     const node = document.createElement('span')
     const text = document.createTextNode('')
     const colorValue = color.hexValue
@@ -97,6 +98,32 @@
     
     return node
   }
-  
 
-})()
+  const customizationSection = (section, colors) => {
+    // console.log('Section: ',section)
+    const node = document.createElement('div')
+    node.setAttribute('class', 'custom-om__customizations-section')
+
+    const heading = document.createElement('h3')
+    const text = document.createTextNode(section.sectionTitle)
+    heading.appendChild(text)
+    node.appendChild(heading)
+
+    const colorsWrapper = document.createElement('div')
+    colorsWrapper.setAttribute('class', 'custom-om__custom-category')
+
+    colors.map((color) => {
+      colorsWrapper.appendChild(colorItem(color, section.id))
+    })
+
+    node.appendChild(colorsWrapper)
+
+    return node
+  }
+
+  const customizationsContainer = document.getElementById('custom-om__customizations-container')
+  sections.map((section) => {
+    customizationsContainer.appendChild(customizationSection(section, colors))
+  })
+
+})
