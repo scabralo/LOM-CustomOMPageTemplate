@@ -1,34 +1,44 @@
 ;(function() {
   const colors = [
     {
-      hexValue: '#E9E3CB'
+      hexValue: '#E9E3CB',
+      excludedFrom: [],
     },
     {
-      hexValue: '#000000'
+      hexValue: '#000000',
+      excludedFrom: [],
     },
     {
-      hexValue: '#494949'
+      hexValue: '#494949',
+      excludedFrom: [],
     },
     {
-      hexValue: '#AFAFAF'
+      hexValue: '#AFAFAF',
+      excludedFrom: [],
     },
     {
-      hexValue: '#C9C9C9'
+      hexValue: '#C9C9C9',
+      excludedFrom: [],
     },
     {
-      hexValue: '#FFFFFF'
+      hexValue: '#FFFFFF',
+      excludedFrom: [],
     },
     {
-      hexValue: '#6587C7'
+      hexValue: '#6587C7',
+      excludedFrom: [],
     },
     {
-      hexValue: '#91B0E6'
+      hexValue: '#91B0E6',
+      excludedFrom: [],
     },
     {
-      hexValue: '#1A203A'
+      hexValue: '#1A203A',
+      excludedFrom: [],
     },
     {
-      hexValue: '#243560'
+      hexValue: '#243560',
+      excludedFrom: [],
     },
   ]
 
