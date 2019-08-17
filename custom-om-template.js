@@ -79,19 +79,21 @@
   /*
    * This function will return the element used to showcase the colors available for customization
    * @param color An object
+   * @param bodyPart It identifies to which body part this color could be applied to
    * @return node In this case the node is a span element
    */
-  const colorItem = (color) => {
+  const colorItem = (color, bodyPart) => {
     const node = document.createElement('span')
     const text = document.createTextNode('')
     const colorValue = color.hexValue
 
     node.appendChild(text)
     node.setAttribute('data-color-value', colorValue)
+    node.setAttribute('data-body-part', bodyPart)
     node.style.backgroundColor = colorValue
     
     return node
   }
-
   
+
 })()
