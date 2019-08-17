@@ -21,14 +21,14 @@
 .custom-om__section-wrapper > div {
   padding: 1em;
 }
-.custom-om__right-column > div {
+#custom-om__customizations-container > div {
   margin-bottom: 2em;
 }
 .custom-om__custom-category {
   display: flex;
   flex-wrap: wrap;
 }
-.custom-om__custom-category span {
+.custom-om__customizations-section span {
   width: 2em;
   height: 2em;
   display: block;
