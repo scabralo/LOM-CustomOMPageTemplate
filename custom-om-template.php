@@ -37,28 +37,7 @@ get_header();
             </div>
             <div class="custom-om__right-column">
               <h2>Customizations</h2>
-              <div class="custom-om__start-customizations">
-                <h3>Star</h3>
-              </div>
-              <div class="custom-om__hat-customizations">
-                <h3>Hat</h3>
-                <div class="custom-om__hat-wrapper custom-om__custom-category">
-                </div>
-              </div>
-              <div class="custom-om__face-customizations">
-                <h3>Face</h3>
-                <div class="custom-om__face-wrapper custom-om__custom-category">
-                </div>
-              </div>
-              <div class="custom-om__body-customizations">
-                <h3>Body</h3>
-                <div class="custom-om__body-wrapper custom-om__custom-category">
-                </div>
-              </div>
-              <div class="custom-om__dots-customizations">
-                <h3>Dots</h3>
-                <div class="custom-om__dots-wrapper custom-om__custom-category">
-                </div>
+              <div id="custom-om__customizations-container">
               </div>
             </div>
           </div>
