@@ -112,7 +112,7 @@
   }
 
   /*
-   * This function populates a customizations section of the page
+   * This function creates a customizations section of the page
    * @param section An object containing all the properties for the section we're creating
    * @param colors An array with all the colors available
    * @return node In this case the node is a customizations section
