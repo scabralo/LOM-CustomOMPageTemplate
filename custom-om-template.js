@@ -78,6 +78,18 @@
       excludedFrom: [],
     },
   ]
+  const omTypes = [
+    {
+      id: 'plain-om',
+      title: 'Plain',
+      image: ''
+    },
+    {
+      id: 'starholder-om',
+      title: 'Starholder',
+      image: ''
+    },
+  ]
 
   /*
    * This function will return the color options for available for customization
