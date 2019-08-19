@@ -195,6 +195,6 @@
   /* App */
   
   customizationsSections(sections, colors)
-  omTypesSection(types)
+  omTypesSection(omTypes)
 
 })
