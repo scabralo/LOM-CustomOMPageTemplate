@@ -127,6 +127,8 @@
     return node
   }
 
+  /* App */
+  
   const customizationsContainer = document.getElementById('custom-om__customizations-container')
   sections.map((section) => {
     customizationsContainer.appendChild(customizationSection(section, colors))
