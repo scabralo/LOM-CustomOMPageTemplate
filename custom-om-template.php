@@ -24,13 +24,7 @@ get_header();
             <div class="custom-om__left-column">
               <div class="custom-om__om-type-container">
                 <h2>OM Type</h2>
-                <div class="custom-om__om-type-wrapper">
-                  <span class="custom-om__om-type-item">
-                    <h3>Plain</h3>
-                  </span>
-                  <span class="custom-om__om-type-item">
-                  <h3>Starholder</h3>
-                  </span>
+                <div id="custom-om__om-type-wrapper">
                 </div>
               </div>
               <div class="custom-om__preview-container"></div>
