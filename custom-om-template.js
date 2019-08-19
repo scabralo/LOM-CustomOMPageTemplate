@@ -1,4 +1,11 @@
 ;jQuery(document).ready(function() {
+  const customOM = {
+    star: '',
+    hat: '',
+    face: '',
+    body: '',
+    dot: ''
+  }
   const sections = [
     {
       id: 'star',
