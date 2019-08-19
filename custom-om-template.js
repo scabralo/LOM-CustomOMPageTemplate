@@ -184,10 +184,17 @@
   const omTypesSection = (types) => {
     const omTypesWrapper = document.getElementById('custom-om__om-type-wrapper')
     const fragment = document.createDocumentFragment()
+
+    types.map((type) => {
+      fragment.appendChild(typeItem(type))
+    })
+
+    omTypesWrapper.appendChild(fragment)
   }
 
   /* App */
   
   customizationsSections(sections, colors)
+  omTypesSection(types)
 
 })
