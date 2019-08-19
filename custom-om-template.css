@@ -38,7 +38,7 @@
   margin-right: 0.25em;
   margin-bottom: 0.25em;
 }
-.custom-om__om-type-wrapper {
+#custom-om__om-type-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
