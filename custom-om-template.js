@@ -200,6 +200,9 @@
     omTypesWrapper.appendChild(fragment)
   }
 
+  /*
+   * This function sets the onClick event listeners for the project
+   */
   const setOnClickEvents = () => {
     const omTypeWrapper = document.getElementById('custom-om__om-type-wrapper')
     omTypeWrapper.addEventListener('click', (event) => {
