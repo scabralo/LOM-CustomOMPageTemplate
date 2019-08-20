@@ -200,9 +200,22 @@
     omTypesWrapper.appendChild(fragment)
   }
 
+  const setOnClickEvents = () => {
+    const omTypeWrapper = document.getElementById('custom-om__om-type-wrapper')
+    omTypeWrapper.addEventListener('click', (event) => {
+      console.log('Event Target: ', event.target)
+    })
+
+    const customizationsContainer = document.getElementById('custom-om__customizations-container')
+    customizationsContainer.addEventListener('click', (event) => {
+      console.log('Custom Prop: ', event.target)
+    })
+  }
+
   /* App */
   
   customizationsSections(sections, colors)
   omTypesSection(omTypes)
+  setOnClickEvents()
 
-})
+}
