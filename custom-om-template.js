@@ -1,5 +1,5 @@
-;jQuery(document).ready(function() {
-  const customOM = {
+;window.onload = () => {
+  let customOM = {
     type: '',
     star: '',
     hat: '',
