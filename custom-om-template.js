@@ -217,8 +217,8 @@
 
   /*
    * This function returns the new state of CustomOM
-   * @param customOM An object containing all the properties for the type element we're creating
-   * @return node In this case the node is a span element
+   * @param omObj An object containing the properties we want to update on the global customOM
+   * @return newOM Return the new state of customOM
    */
   const setNewCustomOM = (omObj) => {
     const newOM = Object.assign({}, customOM, omObj)
