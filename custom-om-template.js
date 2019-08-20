@@ -1,5 +1,6 @@
 ;jQuery(document).ready(function() {
   const customOM = {
+    type: '',
     star: '',
     hat: '',
     face: '',
