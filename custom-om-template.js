@@ -215,6 +215,17 @@
     })
   }
 
+  /*
+   * This function returns the new state of CustomOM
+   * @param customOM An object containing all the properties for the type element we're creating
+   * @return node In this case the node is a span element
+   */
+  const setNewCustomOM = (omObj) => {
+    const newOM = Object.assign({}, customOM, omObj)
+    console.log('Custom OM: ', newOM)
+    return newOM
+  }
+
   /* App */
   
   customizationsSections(sections, colors)
