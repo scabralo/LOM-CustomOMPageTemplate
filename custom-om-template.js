@@ -208,10 +208,20 @@
     omTypeWrapper.addEventListener('click', (event) => {
       console.log('Event Target: ', event.target)
     })
+    customizationsOnClick()
+  }
 
+  const customizationsOnClick = () => {
     const customizationsContainer = document.getElementById('custom-om__customizations-container')
     customizationsContainer.addEventListener('click', (event) => {
-      console.log('Custom Prop: ', event.target)
+
+      const bodyPart = event.target.getAttribute('data-body-part')
+      const colorValue = event.target.getAttribute('data-color-value')
+      const omObj = {}
+      omObj[bodyPart] = colorValue
+      
+      customOM = setNewCustomOM(omObj)
+
     })
   }
 
