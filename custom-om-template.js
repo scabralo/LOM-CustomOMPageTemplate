@@ -128,7 +128,8 @@
   const customizationSection = (section, colors) => {
     // console.log('Section: ',section)
     const node = document.createElement('div')
-    node.setAttribute('class', 'custom-om__customizations-section')
+    node.className = 'custom-om__customizations-section'
+
 
     const heading = document.createElement('h3')
     const text = document.createTextNode(section.sectionTitle)
@@ -136,7 +137,7 @@
     node.appendChild(heading)
 
     const colorsWrapper = document.createElement('div')
-    colorsWrapper.setAttribute('class', 'custom-om__custom-category')
+    colorsWrapper.className = 'custom-om__custom-category'
 
     colors.map((color) => {
       colorsWrapper.appendChild(colorItem(color, section.id))
@@ -172,7 +173,7 @@
   const typeItem = type => {
     const node = document.createElement('span')
     node.id = type.id
-    node.setAttribute('class', 'custom-om__om-type-item')
+    node.className = custom-om__om-type-item'
 
     const heading = document.createElement('h3')
     const text = document.createTextNode(type.title)
