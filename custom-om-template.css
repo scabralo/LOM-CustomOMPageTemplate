@@ -61,3 +61,6 @@ span.custom-om__om-type-item h3 {
 .custom-om__selected {
   border-color: #c7e031;
 }
+.custom-om__hidden {
+  display: none;
+}
