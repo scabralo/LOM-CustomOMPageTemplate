@@ -174,7 +174,7 @@
   const typeItem = type => {
     const node = document.createElement('span')
     node.id = type.id
-    node.className = custom-om__om-type-item'
+    node.className = 'custom-om__om-type-item'
 
     const heading = document.createElement('h3')
     const text = document.createTextNode(type.title)
