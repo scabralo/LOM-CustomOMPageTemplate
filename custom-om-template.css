@@ -58,3 +58,6 @@ span.custom-om__om-type-item h3 {
   margin: 0;
   font-size: large;
 }
+.custom-om__selected {
+  border-color: #c7e031;
+}
