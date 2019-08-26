@@ -12,7 +12,7 @@
       id: 'star',
       sectionTitle: 'Star',
       sectionSelector: '',
-      isVisible: true,
+      isVisible: false,
       sectionClasses: []
     },
     {
@@ -98,7 +98,7 @@
       image: ''
     },
   ]
-
+  const HIDDEN_CLASS = 'custom-om__hidden'
   /*
    * This function will return the color options for available for customization
    * @param color An object containing all the properties for the color item we're creating
@@ -130,6 +130,7 @@
     const node = document.createElement('div')
     node.className = 'custom-om__customizations-section'
 
+    !section.isVisible && node.classList.add(HIDDEN_CLASS) 
 
     const heading = document.createElement('h3')
     const text = document.createTextNode(section.sectionTitle)
