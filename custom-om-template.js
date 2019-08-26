@@ -175,10 +175,13 @@
     const node = document.createElement('span')
     node.id = type.id
     node.className = 'custom-om__om-type-item'
+    node.setAttribute('data-om-type', type.id)
 
     const heading = document.createElement('h3')
     const text = document.createTextNode(type.title)
     heading.appendChild(text)
+    heading.setAttribute('data-om-type', type.id)
+
     node.appendChild(heading)
 
     // Needs an image in the near future
