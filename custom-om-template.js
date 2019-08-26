@@ -210,6 +210,7 @@
    */
   const setOnClickEvents = () => {
     customizationsOnClick()
+    omTypeOnClick()
   }
 
   const customizationsOnClick = () => {
@@ -220,6 +221,19 @@
       const colorValue = event.target.getAttribute('data-color-value')
       const omObj = {}
       omObj[bodyPart] = colorValue
+      
+      customOM = setNewCustomOM(omObj)
+
+    })
+  }
+
+  const omTypeOnClick = () => {
+    const typeWrapper = document.getElementById('custom-om__om-type-wrapper')
+    typeWrapper.addEventListener('click', (event) => {
+
+      const omType = event.target.getAttribute('data-om-type')
+      const omObj = {}
+      omObj.type = omType
       
       customOM = setNewCustomOM(omObj)
 
