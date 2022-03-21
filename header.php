@@ -89,15 +89,13 @@
 					( ! get_post_meta( mfn_ID(), 'mfn-post-hide-title', true ) ) &&
 					( get_post_meta( mfn_ID(), 'mfn-post-template', true ) != 'intro' )	){
 
-					
 					$subheader_advanced = mfn_opts_get( 'subheader-advanced' );
 					
 					$subheader_style = '';
 					
 					if( mfn_opts_get( 'subheader-padding' ) ){
 						$subheader_style .= 'padding:'. mfn_opts_get( 'subheader-padding' ) .';';
-					}				
-					
+					}
 					
 					if( is_search() ){
 						// Page title -------------------------
@@ -120,14 +118,11 @@
 							echo '</div>';
 						echo '</div>';
 						
-						
 					} elseif( ! mfn_slider_isset() || ( is_array( $subheader_advanced ) && isset( $subheader_advanced['slider-show'] ) ) ){
 						// Page title -------------------------
 						
-						
 						// Subheader | Options
 						$subheader_options = mfn_opts_get( 'subheader' );
-
 
 						if( is_home() && ! get_option( 'page_for_posts' ) && ! mfn_opts_get( 'blog-page' ) ){
 							$subheader_show = false;
@@ -139,14 +134,12 @@
 							$subheader_show = true;
 						}
 						
-						
 						// title
 						if( is_array( $subheader_options ) && isset( $subheader_options[ 'hide-title' ] ) ){
 							$title_show = false;
 						} else {
 							$title_show = true;
 						}
-						
 						
 						// breadcrumbs
 						if( is_array( $subheader_options ) && isset( $subheader_options[ 'hide-breadcrumbs' ] ) ){
@@ -160,7 +153,6 @@
 						} else {
 							$breadcrumbs_link = 'no-link';
 						}
-						
 						
 						// Subheader | Print
 						if( $subheader_show ){
@@ -183,13 +175,9 @@
 								echo '</div>';
 							echo '</div>';
 						}
-						
 					}
-					
-					
 				}
 			?>
-		
 		</div>
 		
 		<?php 
